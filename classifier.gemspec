@@ -5,11 +5,11 @@ require "classifier/version"
 Gem::Specification.new do |s|
   s.name        = "classifier"
   s.version     = Classifier::VERSION
-  s.authors     = ["Alex Tandrau"]
-  s.email       = ["alexandru@tandrau.com"]
+  s.authors     = ["Alex Tandrau", "Flavia Grosan"]
+  s.email       = ["alex@takeofflabs.com", "flavia@takeofflabs.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Ruby classifier libraries}
+  s.description = %q{Ruby classifier libraries}
 
   s.rubyforge_project = "classifier"
 
