@@ -44,7 +44,7 @@ module Classifier
       end
      
       # Perform the scaling transform
-      total_words = vec.sum
+      total_words = vec.cl_sum
       
       # Perform first-order association transform if this vector has more
       # than one word in it. 

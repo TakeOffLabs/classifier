@@ -7,7 +7,7 @@ require 'matrix'
 require 'mathn'
 
 class Array
-   def sum
+   def cl_sum
       inject(0) { |sum,term| sum += term  }.to_f
    end
 end
