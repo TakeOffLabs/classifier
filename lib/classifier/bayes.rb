@@ -33,6 +33,14 @@ class Bayes
 			@total_words += count
 		end
 	end
+	
+	def one_word(category, term, weight)
+	  category = category.prepare_category_name
+	  
+	  @categories[category][term] ||= 0
+	  @categories[category][term] += weight
+	  @total_words += weight
+  end
 
 	#
 	# Provides a untraining method for all categories specified in Bayes#new
